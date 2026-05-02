@@ -1,0 +1,64 @@
+PromptWars Challenge 2 – Output
+
+Project: Interactive Election Assistant
+
+Overview:
+---------
+A modern, web-based conversational assistant designed to help users understand the election process in a simple, interactive, and user-friendly way.
+
+Key Features:
+-------------
+1. Chat-Based Interface:
+   - Users can ask questions related to elections
+   - Example:
+     User: What are elections?
+     Bot: Elections are a formal decision-making process where citizens choose individuals to hold public office. In a democracy like India, it helps decide leadership at local, state, and national levels.
+
+2. Guided Quick Questions:
+   - Predefined buttons for common queries:
+     - What are elections?
+     - Am I a first-time voter?
+     - Types of elections
+
+3. Election Timeline Section:
+   - Displays important election-related dates:
+     - March 15, 2026 – Voter Registration Deadline
+     - April 5, 2026 – Candidate List Announced
+     - April 19, 2026 – Election Day (Phase 1)
+     - May 2, 2026 – Results Announced
+
+4. Multilingual Support:
+   - Toggle between English and Hindi for accessibility
+
+5. Educational UI Components:
+   - Clean and modern layout
+   - Organized sections for easy understanding
+
+6. Myth vs Fact Section:
+   - Helps users differentiate misinformation from real facts
+
+Sample Interaction:
+-------------------
+User: What are elections?
+Bot: Elections are a formal decision-making process where citizens choose their representatives. It ensures democratic participation and fair governance.
+
+User: Am I a first-time voter?
+Bot: If you are 18 years or older and registered in the voter list, you are eligible to vote for the first time.
+
+System Design (High-Level):
+--------------------------
+- Frontend:
+  - Interactive UI with chat interface
+  - Timeline and informational panels
+
+- Backend (Conceptual):
+  - Handles user queries
+  - Returns predefined or AI-generated responses
+
+- Logic:
+  - Keyword-based or AI-driven response handling
+  - Supports structured and guided responses
+
+Conclusion:
+-----------
+This project demonstrates how AI-powered interfaces can simplify complex topics like elections through conversational design, structured information, and interactive UI elements.

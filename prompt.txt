@@ -1,0 +1,44 @@
+Build a modern, interactive web-based assistant that helps users understand the election process in a clear, engaging, and personalized way.
+
+Core Requirements:
+The assistant should act as a conversational guide (chat-style UI).
+It must explain:
+What elections are
+Types of elections (local, state, national)
+Step-by-step voting process
+Key timelines (registration deadlines, voting dates, result announcements)
+Allow users to select their country/region and dynamically adapt the information (start with India, but keep it extensible).
+
+Interactivity:
+Break down the election process into step-by-step flows (like a progress tracker or wizard).
+Include interactive decision paths, e.g.:
+“Are you a first-time voter?” → tailored guidance
+“Do you have a voter ID?” → next steps
+Add clickable cards, buttons, and quick replies instead of only text.
+
+UX/UI:
+Clean, modern UI (inspired by Duolingo / Notion / Gov dashboards)
+Use visual timelines, progress indicators, and icons
+Include a “Beginner Mode” and “Quick Info Mode”
+Smart Features:
+FAQ section powered by AI (handle natural language questions)
+Myth vs Fact section to combat misinformation
+Reminders/alerts simulation (e.g., “Registration closes in X days”)
+Multilingual support (at least English + 1 regional language)
+
+Technical:
+Frontend: React (or Next.js)
+Backend: lightweight (Node/Express or serverless)
+Use an LLM API for chat responses
+Structure code cleanly with reusable components
+Mock election data if needed
+
+Bonus :
+Add a “Simulate Your Voting Journey” feature
+Gamify learning (badges for completing steps)
+Accessibility features (voice assist, large text mode)
+
+Output:
+Fully functional UI (not just boilerplate)
+Dummy data + working flows
+Clean, commented code
